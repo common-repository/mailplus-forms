@@ -1,0 +1,28 @@
+<?php
+use Spotler\Admin\Setting;
+use Spotler\General\Helpers\General;
+use Spotler\I18n;
+?>
+
+<div class="wrap">
+	<h1><?php echo __( 'Spotler Mail+ Forms Plugin Settings', 'mailplus-forms' ); ?></h1>
+    <p><?php echo __( 'With the Spotler Mail+ Forms Plugin web masters can easily integrate web forms or online surveys created in Spotler Mail+ on pages and posts without any technical knowledge.', 'mailplus-forms' ); ?></p>
+
+	<form action="options.php" method="post" class="spotler-settings">
+		<?php
+			\settings_fields( Setting::SETTINGS_PRIMARY_SLUG );
+
+			\do_settings_sections( Setting::SETTINGS_PRIMARY_SLUG );
+
+			\submit_button();
+		?>
+	</form>
+
+    <?php
+        $aboutDescription = '<p>' . __( '%1$sSpotler Mail+%2$s helps marketeers and communication professionals to excel using the Spotler Mail+ email marketing automation software that is easy to use and yet result driven.<br/> The Spotler Mail+ platform contains a user-friendly form editor with a lot of features. For example, matrix questions, conditional questions, skip logic/branching, multi-paging, extensive features for validating answers from respondents, great e-mail confirmation possibilities and much more.', 'mailplus-forms' ) . '</p>';
+        $aboutDescription = sprintf( $aboutDescription, '<a href="https://spotler.com" target="_blank">', '</a>' );
+    ?>
+
+    <p><strong><?php echo __( 'About Spotler Mail+', 'mailplus-forms' ); ?></strong></p>
+    <p><?php echo wp_kses($aboutDescription, '<a>'); ?></p>
+</div>

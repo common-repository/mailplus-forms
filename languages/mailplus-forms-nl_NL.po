@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Spotler Mail+ Forms 3.1.4\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. Plugin Name of the plugin.
+#: /admin/classes/Setting.class.php
+msgid "Spotler Mail+ Forms"
+msgstr "Spotler Mail+ Forms"
+
+#. Heading of Settings section.
+#: /admin/classes/Setting.class.php
+msgid "Authorization"
+msgstr "Autorisatie"
+
+#. Label of API URL form field.
+#: /admin/classes/Setting.class.php
+msgid "Spotler Mail+ API URL"
+msgstr "Spotler Mail+ API URL"
+
+#. Label of API Consumer key form field.
+#: /admin/classes/Setting.class.php
+msgid "Consumer key"
+msgstr "Klantsleutel"
+
+#. Label of API Consumer secret form field.
+#: /admin/classes/Setting.class.php
+msgid "Consumer secret"
+msgstr "Klantgeheim"
+
+#. Title of form integration preferences section.
+#: /admin/classes/Setting.class.php
+msgid "Form Integration Preferences"
+msgstr "Formulier integratie voorkeuren"
+
+#. Title of API output format form input.
+#: /admin/classes/Setting.class.php
+msgid "Publish forms in html or xhtml?"
+msgstr "Publiceer formulieren in html of xhtml?"
+
+#. Label of API output format form input option.
+#: /admin/classes/Setting.class.php
+msgid "xhtml"
+msgstr "xhtml"
+
+#. Label of API output format form input option.
+#: /admin/classes/Setting.class.php
+msgid "html"
+msgstr "html"
+
+#. Title of API output mode form input.
+#: /admin/classes/Setting.class.php
+msgid "Publish forms in tables or divs"
+msgstr "Publiceer formulieren in tabellen of divs"
+
+#. Label of API output mode form input option.
+#: /admin/classes/Setting.class.php
+msgid "tables"
+msgstr "tabellen"
+
+#. Label of API output mode form input option.
+#: /admin/classes/Setting.class.php
+msgid "divs"
+msgstr "divs"
+
+#: /admin/classes/Setting.class.php
+msgid "To get started, go to your %1$sSpotler Mail+ account%2$s to get your authorization codes and enter these below:"
+msgstr "Je kan beginnen door een %1$sSpotler Mail+ account%2$s aan te vragen, vraag vervolgens de autorisatiecodes aan en vul deze hieronder in:"
+
+#: /admin/classes/Setting.class.php
+msgid "Choose if you want to integrate your forms in ‘xhtml or html’ and choose if you want them to consist of ‘tables or divs’. Enter your personal preferences below:"
+msgstr "Kies voor het integreren van jouw formulieren door middel van ‘xhtml of html‘ en kies of je formulieren in ‘tabellen of in divs‘ wilt gebruiken. Vul je persoonlijke voorkeur hieronder in:"
+
+#: admin/template-parts/spotler-admin-options.phtml
+msgid "Spotler Mail+ Forms Plugin Settings"
+msgstr "Spotler Mail+ Forms Plugin instellingen"
+
+#: admin/template-parts/spotler-admin-options.phtml
+msgid "With the Spotler Mail+ Forms Plugin web masters can easily integrate web forms or online surveys created in Spotler Mail+ on pages and posts without any technical knowledge."
+msgstr "Met de Spotler Mail+ Forms Plugin kan jij als beheerder gemakkelijk formulieren of enquêtes toevoegen aan berichten of pagina's zonder dat je hier technische kennis voor nodig hebt."
+
+#: admin/template-parts/spotler-admin-options.phtml
+msgid "About Spotler Mail+"
+msgstr "Over Spotler Mail+"
+
+#: admin/template-parts/spotler-admin-options.phtml
+msgid "%1$sSpotler Mail+%2$s helps marketeers and communication professionals to excel using the Spotler Mail+ email marketing automation software that is easy to use and yet result driven.<br/> The Spotler Mail+ platform contains a user-friendly form editor with a lot of features. For example, matrix questions, conditional questions, skip logic/branching, multi-paging, extensive features for validating answers from respondents, great e-mail confirmation possibilities and much more."
+msgstr "Spotler Mail+ is een online marketing platform waarme je op een gebruiksvriendelijke manier formulier kunt aanmaken met hierbij veel functies. Je kunt voorbeeld: matrixvragen, conditionele vragen, logica met vertakkingen, meerdere pagina's, uitgebreide mogelijkheden voor het valideren van antwoorden die zijn ingevuld, geweldige email terugkoppeling mogelijkheden en nog veel meer."
+
+#: general/classes/Api.class.php
+msgid "Could not retrieve forms, are you sure there are any present within the Spotler Mail+ account?"
+msgstr "Kon de formulieren niet ophalen, weet je zeker dat er formulieren aanwezig zijn binnen jouw Spotler Mail+ account?"
+
+#: general/classes/Api.class.php
+msgid "Something went wrong while retrieving the Spotler Mail+ forms."
+msgstr "Er ging iets fout bij het ophalen van de Spotler Mail+ formulieren."
+
+#: general/classes/Api.class.php
+msgid "Spotler Mail+ form content is empty, make sure your form has valid input fields."
+msgstr "De inhoud van het Spotler Mail+ formulier is leeg, zorg ervoor dat het formulier correcte invoer velden heeft."
+
+#: general/classes/Api.class.php
+msgid "Spotler Mail+ form content does not contain HTML, make sure your form has valid input fields."
+msgstr "Het Spotler Mail+ formulier heeft geen HTML, zorg ervoor dat het formulier correcte invoer velden heeft."
+
+#: general/classes/Api.class.php
+msgid "Something went wrong while retrieving the Spotler Mail+ form."
+msgstr "Er ging iets fout bij het ophalen van het Spotler Mail+ formulier."
+
+#: general/classes/Api.class.php
+msgid "Could not successfully retrieve form confirmation."
+msgstr "De formulier validatie kon niet ontvangen worden."
+
+#: general/classes/Api.class.php
+msgid "Something went wrong while submitting your form entry."
+msgstr "Er ging iets mis tijdens het versturen van jouw formulier aanvraag."
+
+#: general/classes/Api.class.php
+msgid "Something went wrong while trying to log in to the Spotler Mail+ service."
+msgstr "Er ging iets mis tijdens het verbinding maken met de Spotler Mail+ dienst."
+
+#: general/classes/Api.class.php
+msgid "Either the consumer_key or consumer_secret are not set within the plugin settings."
+msgstr "De klantsleutel of het klantgeheim is niet ingesteld binnen de plugin instellingen."

@@ -1,0 +1,11 @@
+{
+    "config": {
+        "platform": {
+            "php": "7.2.5"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "guzzlehttp/oauth-subscriber": "^0.6.0"
+    }
+}

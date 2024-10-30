@@ -1,0 +1,77 @@
+.mpFormField ul {
+    height: auto;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.mpFormField li {
+    clear: both;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 5px
+}
+
+.mpFormField textarea, .mpFormField input:not([type="radio"]) {
+    margin: 0 10px 0 0;
+    width: 95%
+}
+
+.mpFormField input[type="radio"] {
+    width: 25px;
+}
+
+.mpFormField .mpDateField.mpDD, .mpFormField .mpDateField.mpMM {
+    width: 50px;
+}
+
+.mpFormField .mpDateField.mpYYYY {
+    width: 85px;
+}
+
+.mpFormField ul li input, .mpFormField input.submitButton {
+    width: auto
+}
+
+ul.mpFormTable.mpTwoColumnLayout li.mpQuestionTable.mpMatrixQuestion {
+    flex-direction: column;
+    display: block
+}
+
+ul.mpFormTable.mpTwoColumnLayout li.mpQuestionTable, .mpLabelRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.mpFormTable.mpTwoColumnLayout li.mpQuestionTable {
+    padding-right: 0;
+    margin-right: 0
+}
+
+.mpFormTable {
+    padding-left: 0
+}
+
+.mpLabelRow, .mpMatrix, .mpFormText {
+    width: 100%
+}
+
+.mpErrorRow {
+    flex-basis: 100%
+}
+
+.mpFormField, .submitCell {
+    flex-basis: 58%
+}
+
+.mpFormLabel, .submitCellSpacer {
+    flex-basis: 38%
+}
+
+.mpQuestionTable div, .mpFormTable div {
+    border: 0 none;
+    vertical-align: top;
+    padding-bottom: 5px;
+    padding-top: 5px
+}

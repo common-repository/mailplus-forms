@@ -1,0 +1,132 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Spotler Mail+ Forms 3.1.4\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 3.0\n"
+
+#. Plugin Name of the plugin.
+#: /admin/classes/Setting.class.php
+msgid "Spotler Mail+ Forms"
+msgstr ""
+
+#. Heading of Settings section.
+#: /admin/classes/Setting.class.php
+msgid "Authorization"
+msgstr ""
+
+#. Label of API URL form field.
+#: /admin/classes/Setting.class.php
+msgid "Spotler Mail+ API URL"
+msgstr ""
+
+#. Label of API Consumer key form field.
+#: /admin/classes/Setting.class.php
+msgid "Consumer key"
+msgstr ""
+
+#. Label of API Consumer secret form field.
+#: /admin/classes/Setting.class.php
+msgid "Consumer secret"
+msgstr ""
+
+#. Title of form integration preferences section.
+#: /admin/classes/Setting.class.php
+msgid "Form Integration Preferences"
+msgstr ""
+
+#. Title of API output format form input.
+#: /admin/classes/Setting.class.php
+msgid "Publish forms in html or xhtml?"
+msgstr ""
+
+#. Label of API output format form input option.
+#: /admin/classes/Setting.class.php
+msgid "xhtml"
+msgstr ""
+
+#. Label of API output format form input option.
+#: /admin/classes/Setting.class.php
+msgid "html"
+msgstr ""
+
+#. Title of API output mode form input.
+#: /admin/classes/Setting.class.php
+msgid "Publish forms in tables or divs"
+msgstr ""
+
+#. Label of API output mode form input option.
+#: /admin/classes/Setting.class.php
+msgid "tables"
+msgstr ""
+
+#. Label of API output mode form input option.
+#: /admin/classes/Setting.class.php
+msgid "divs"
+msgstr ""
+
+#: /admin/classes/Setting.class.php
+msgid "To get started, go to your %1$sSpotler Mail+ account%2$s to get your authorization codes and enter these below:"
+msgstr ""
+
+#: /admin/classes/Setting.class.php
+msgid "Choose if you want to integrate your forms in ‘xhtml or html’ and choose if you want them to consist of ‘tables or divs’. Enter your personal preferences below:"
+msgstr ""
+
+#: admin/template-parts/spotler-admin-options.phtml
+msgid "Spotler Mail+ Forms Plugin Settings"
+msgstr ""
+
+#: admin/template-parts/spotler-admin-options.phtml
+msgid "With the Spotler Mail+ Forms Plugin web masters can easily integrate web forms or online surveys created in Spotler Mail+ on pages and posts without any technical knowledge."
+msgstr ""
+
+#: admin/template-parts/spotler-admin-options.phtml
+msgid "About Spotler Mail+"
+msgstr ""
+
+#: admin/template-parts/spotler-admin-options.phtml
+msgid "%1$sSpotler Mail+%2$s helps marketeers and communication professionals to excel using the Spotler Mail+ email marketing automation software that is easy to use and yet result driven.<br/> The Spotler Mail+ platform contains a user-friendly form editor with a lot of features. For example, matrix questions, conditional questions, skip logic/branching, multi-paging, extensive features for validating answers from respondents, great e-mail confirmation possibilities and much more."
+msgstr ""
+
+#: general/classes/Api.class.php
+msgid "Could not retrieve forms, are you sure there are any present within the Spotler Mail+ account?"
+msgstr ""
+
+#: general/classes/Api.class.php
+msgid "Something went wrong while retrieving the Spotler Mail+ forms."
+msgstr ""
+
+#: general/classes/Api.class.php
+msgid "Spotler Mail+ form content is empty, make sure your form has valid input fields."
+msgstr ""
+
+#: general/classes/Api.class.php
+msgid "Spotler Mail+ form content does not contain HTML, make sure your form has valid input fields."
+msgstr ""
+
+#: general/classes/Api.class.php
+msgid "Something went wrong while retrieving the Spotler Mail+ form."
+msgstr ""
+
+#: general/classes/Api.class.php
+msgid "Could not successfully retrieve form confirmation."
+msgstr ""
+
+#: general/classes/Api.class.php
+msgid "Something went wrong while submitting your form entry."
+msgstr ""
+
+#: general/classes/Api.class.php
+msgid "Something went wrong while trying to log in to the Spotler Mail+ service."
+msgstr ""
+
+#: general/classes/Api.class.php
+msgid "Either the consumer_key or consumer_secret are not set within the plugin settings."
+msgstr ""

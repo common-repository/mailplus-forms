@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.2" baseProfile="tiny-ps" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg">
+  <title>Spotler</title>
+<rect x="0" y="0" fill="#002A4D" width="70" height="70" />
+<g>
+	<path fill="#FFFFFF" d="M26.3,14.7H15.4c-0.4,0-0.7,0.3-0.7,0.7v10.8C17,21.1,21.1,16.9,26.3,14.7z" />
+	<path fill="#FFFFFF" d="M35.1,14.7c-11.2,0-20.3,9.1-20.3,20.3s9.1,20.3,20.3,20.3S55.3,46.2,55.3,35S46.3,14.7,35.1,14.7z    M35.2,45.7c-5.9,0-10.6-4.7-10.6-10.6s4.7-10.6,10.6-10.6s10.6,4.7,10.6,10.6S41,45.7,35.2,45.7z" />
+</g>
+</svg>
